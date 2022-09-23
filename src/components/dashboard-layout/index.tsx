@@ -10,7 +10,7 @@ export const DashboardLayout = ({
 }: DashboardLayoutProps): React.ReactElement => (
   <div className="max-w-screen-xl m-auto w-full laptop:border laptop:border-white desktop:border desktop:border-white">
     <div>
-      <div className="hidden desktop:inline-block laptop:inline-block w-full">
+      <div className=" desktop:inline-block laptop:inline-block w-full">
         <div className="w-full">
           <Header />
         </div>
